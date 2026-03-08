@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+
+# Archivos de entorno
+.env
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Dependencias instaladas globalmente por error
+*.tgz
+
+# Archivos de build (si hubiera)
+dist/
+build/
+
+# Otros
+*.sqlite
+*.db

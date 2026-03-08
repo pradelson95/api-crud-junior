@@ -1,0 +1,18 @@
+{
+  "name": "jitterbit-teste",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Ejercicios.js",
+  "scripts": {
+    "start": "node Ejercicios.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "express": "^5.2.1",
+    "mongoose": "^9.2.4",
+    "pg": "^8.20.0"
+  }
+}
