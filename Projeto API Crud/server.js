@@ -10,10 +10,10 @@ const app = express();
 
 app.use(express.json());
 
-// rutas de autenticación
+// rotas de autenticação
 app.use("/auth", authRoutes);
 
-// rutas de pedidos
+// rotas de pedidos
 app.use("/order", orderRoutes);
 
 const PORT = process.env.PORT || 3000;
